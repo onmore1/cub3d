@@ -1,5 +1,3 @@
-*This project has been created as part of the 42 curriculum by cpinas, vananiev.*
-
 # cub3D — 3D Raycasting Game
 
 ## Description
@@ -29,7 +27,7 @@ pixels on screen.
   with animated gun bob
 - **Doom-Guy HUD** — animated face reacting to damage and kills
 - **Combo system** — 3 kills within 5 seconds triggers an announcer callout
-- **Audio** — sound effects for weapons, steps, kills, and background music
+- **Audio** — sound effects for weapons, steps, kills
   (miniaudio)
 - **Mouse look** with delta-time-scaled sensitivity
 - **Leg kick** attack (`F`)
