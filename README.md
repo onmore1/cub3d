@@ -12,28 +12,6 @@ software renderer that turns a 2D grid map into a textured 3D world from the
 player's point of view, using only the MLX42 graphics library for putting
 pixels on screen.
 
-## Screenshots
-
-Click any image to view it full size.
-
-<table>
-  <tr>
-    <td><a href="screenshots/screenshot-1.png"><img src="screenshots/screenshot-1.png" alt="Shotgun blast in a corridor" width="100%"></a></td>
-    <td><a href="screenshots/screenshot-2.png"><img src="screenshots/screenshot-2.png" alt="Enemy attacking at close range" width="100%"></a></td>
-    <td><a href="screenshots/screenshot-3.png"><img src="screenshots/screenshot-3.png" alt="Two enemies approaching" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td><a href="screenshots/screenshot-4.png"><img src="screenshots/screenshot-4.png" alt="Machine gun with enemy corpses on the floor" width="100%"></a></td>
-    <td><a href="screenshots/screenshot-5.png"><img src="screenshots/screenshot-5.png" alt="Machine gun firing in an open room" width="100%"></a></td>
-    <td><a href="screenshots/screenshot-6.png"><img src="screenshots/screenshot-6.png" alt="Hand-to-hand combat" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td><a href="screenshots/screenshot-7.png"><img src="screenshots/screenshot-7.png" alt="Pistol and leg kick" width="100%"></a></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
 ### Mandatory features
 - Raycasting engine rendering textured walls with distinct textures per
   cardinal direction (N/S/E/W)
