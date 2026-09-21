@@ -1,5 +1,9 @@
 # cub3D — 3D Raycasting Game
 
+<p align="center">
+  <img src="screenshots/carousel.gif" alt="cub3D gameplay slideshow" width="800">
+</p>
+
 ## Description
 
 cub3D is a first-person 3D game built from scratch in C using raycasting,
@@ -7,6 +11,28 @@ inspired by Wolfenstein 3D. The goal of the project is to implement a real-time
 software renderer that turns a 2D grid map into a textured 3D world from the
 player's point of view, using only the MLX42 graphics library for putting
 pixels on screen.
+
+## Screenshots
+
+Click any image to view it full size.
+
+<table>
+  <tr>
+    <td><a href="screenshots/screenshot-1.png"><img src="screenshots/screenshot-1.png" alt="Shotgun blast in a corridor" width="100%"></a></td>
+    <td><a href="screenshots/screenshot-2.png"><img src="screenshots/screenshot-2.png" alt="Enemy attacking at close range" width="100%"></a></td>
+    <td><a href="screenshots/screenshot-3.png"><img src="screenshots/screenshot-3.png" alt="Two enemies approaching" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td><a href="screenshots/screenshot-4.png"><img src="screenshots/screenshot-4.png" alt="Machine gun with enemy corpses on the floor" width="100%"></a></td>
+    <td><a href="screenshots/screenshot-5.png"><img src="screenshots/screenshot-5.png" alt="Machine gun firing in an open room" width="100%"></a></td>
+    <td><a href="screenshots/screenshot-6.png"><img src="screenshots/screenshot-6.png" alt="Hand-to-hand combat" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td><a href="screenshots/screenshot-7.png"><img src="screenshots/screenshot-7.png" alt="Pistol and leg kick" width="100%"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Mandatory features
 - Raycasting engine rendering textured walls with distinct textures per
@@ -83,12 +109,14 @@ function bodies, bonus behaviour is wired in at global scope only:
 
 ## Map File Format (`.cub`)
 
+```
 1111111111111111111111111
 1000000000110000000000001
 1011000001110000000000001
-100N0000000000000000000 1
+100N00000000000000000001
 ...
 1111111111111111111111111
+```
 
 | Key  | Description                              |
 |------|------------------------------------------|
@@ -161,8 +189,8 @@ mode (25 damage per hit).
 ### Raycasting & rendering
 - Lode Vandevenne, *Raycasting tutorial* — https://lodev.org/cgtutor/raycasting.html
   (the canonical reference for DDA-based raycasting; the basis for the engine)
-- Miniaudio Documentaion - https://miniaud.io/docs/manual/index.html
-- AI pathfinding - https://www.redblobgames.com/pathfinding/a-star/introduction.html
+- Miniaudio Documentation — https://miniaud.io/docs/manual/index.html
+- AI pathfinding — https://www.redblobgames.com/pathfinding/a-star/introduction.html
 
 ### Libraries
 - **MLX42** — https://github.com/codam-coding-college/MLX42
