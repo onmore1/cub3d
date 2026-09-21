@@ -170,8 +170,4 @@ mode (25 damage per hit).
 
 ### AI usage
 
-  - Helping with Valgrind leaks;
   - Norminatting + refactoring
-  - Helped with understanding raycasting math
-  - Discussion of enemy AI design
-  - Help building a supression file and Makefile
